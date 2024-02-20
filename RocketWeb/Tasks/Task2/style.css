@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global Styles */
+  body {
+    min-height: 800px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  @font-face {
+    font-family: 'YourFontName';
+    src: url('/Font/segoeui.ttf') format('Segoe UI'), /* Add more formats if needed */
+         url('/Font/segoeuib.ttf') format('segoeuib'),
+         url('/Font/segoeuii.ttf') format('segoeuii'),
+         url('/Font/segoeuil.ttf') format('segoeuil'),
+         url('/Font/segoeuisl.ttf') format('segoeuisl'),
+         url('/Font/segoeuiz.ttf') format('segoeuiz'),
+         url('/Font/seguibl.ttf') format('seguibl'),
+         url('/Font/seguibli.ttf') format('seguibli'),
+         url('/Font/seguili.ttf') format('seguili'),
+         url('/Font/seguisb.ttf') format('seguisb'),
+         url('/Font/seguisbi.ttf') format('seguisbi'),
+         url('/Font/seguisli.ttf') format('seguisli');
+   
+  }
+
+  header {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 3px 6px #00000029;
+    top: 0px;
+    left: 0px;
+    height: 68px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+}
+
+  .logo-left {
+    order: 1; 
+  }
+
+  .logo-right {
+    order: 2; 
+  }
+
+  img {
+    max-height: 50px; 
+  }
+ 
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  table {
+    border: 1px solid #000000;
+    max-width: 1189px; 
+    overflow-x: auto;
+    border-collapse: collapse;
+    height: 610px;
+
+  }
+  thead th {
+    top: 126px;
+    left: 46px;
+    width: 1100px;
+    height: 58px;
+    background: #245A81 0% 0% no-repeat padding-box;
+    opacity: 1;
+  } 
+  th{
+    top: 142px;
+    left: 1013px;
+    width: 56px;
+    height: 27px;
+    text-align: left;
+    font: normal normal bold 20px/27px Segoe UI;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    opacity: 1;
+  }
+  tr:nth-child(even) {
+    top: 248px;
+    left: 46px;
+    height: 58px;
+    opacity: 1;
+    font: normal normal bold 20px Segoe UI;
+    letter-spacing: 0px;
+    color: #245A81;
+    text-transform: capitalize;
+  }
+   tr:nth-child(odd) {
+    top: 184px;
+    left: 46px;
+    height: 65px;
+    font: normal normal bold 20px Segoe UI;
+    letter-spacing: 0px;
+    color: #245A81;
+    text-align: left;
+    text-transform: capitalize;
+    background: #EEEEEE 0% 0% no-repeat padding-box;
+    opacity: 1;
+ }
+th,td{
+    border: 1px solid #000000;
+    padding-left: 17px;
+    text-align: left; 
+}
+
+   
+   

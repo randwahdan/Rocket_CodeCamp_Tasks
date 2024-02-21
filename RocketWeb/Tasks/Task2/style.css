@@ -54,14 +54,13 @@
   img {
     max-height: 50px; 
   }
- 
   .container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
   }
-
+  
   table {
     border: 1px solid #000000;
     max-width: 1189px; 
@@ -101,7 +100,8 @@
     color: #245A81;
     text-transform: capitalize;
   }
-   tr:nth-child(odd) {
+  
+  tr:nth-child(odd) {
     top: 184px;
     left: 46px;
     height: 65px;
@@ -112,12 +112,9 @@
     text-transform: capitalize;
     background: #EEEEEE 0% 0% no-repeat padding-box;
     opacity: 1;
- }
+  }
 th,td{
     border: 1px solid #000000;
     padding-left: 17px;
     text-align: left; 
 }
-
-   
-   

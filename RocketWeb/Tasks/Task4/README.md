@@ -17,9 +17,10 @@ Mark task as completed / uncompleted
 ```
 
 ## Result
+![alt text](images/result.png)
+![alt text](images/result2.png)
 
 
-![alt text](result.png)
 
 
 

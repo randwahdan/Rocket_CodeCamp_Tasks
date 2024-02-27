@@ -2,6 +2,7 @@
 :root {
     --white-alpha-40: rgba(255, 255, 255, 0.40);
     --white-alpha-25: rgba(255, 255, 255, 0.25);
+    --pink-colo: #F15A59;
 }
 
 * {
@@ -109,11 +110,18 @@
     width: 100%;
     max-width: 540px;
     background-color: var(--white-alpha-25);
-    border: 1px solid var(--white-alpha-40);
     margin: 100px auto 20px;
     padding: 40px 30px 70px;
     border-radius: 10px;
-    box-shadow: 5px 5px 25px 5px rgba(110, 104, 104, 0.7);
+    box-shadow: 0 0 10px 1px #F15A59;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    top: 10px;
+}
+
+.todo-app:hover {
+    top: 0;
+    box-shadow: 0 5px 20px 1px #f1595967;
 }
 
 .todo-app h2 {
@@ -133,17 +141,23 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #ee8e8e;
+    background: #FFC6AC;
     border-radius: 40px;
     padding-left: 20px;
     margin-bottom: 25px;
 }
 
+input::placeholder {
+    color: #F15A59;
+}
+
 input {
     flex: 1;
+    font-size: 1.25rem;
     border: none;
     outline: none;
-    color: #585151;
+    color: #F15A59;
+    font-weight: bold;
     background: transparent;
     padding: 10px;
 }
@@ -157,7 +171,8 @@ button {
     font-size: 18px;
     font-weight: 600;
     cursor: pointer;
-    border-radius: 40px;
+    border-radius: 0 40px 40px 0;
+    transition: all .3s ease;
 }
 
 button:hover{

@@ -9,20 +9,19 @@ I have built this project using the following tools & techniques:HTML,CSS and Ja
 
 Key Features:
 ```
-Add a new task
-Delete single task
-Edit single task
-Delete completed tasks
-Mark task as completed / uncompleted
+The data is being saved and retrieved from the Local Storage which means the data is not lost even after the page refresh.
+Add a new task.
+Delete single task.
+Edit single task.
+Delete completed tasks.
+Mark task as completed / uncompleted.
+New tasks are added at the top of the list for better visibility.
+Completed tasks are moved to the end of the list.
 ```
 
 ## Result
-![alt text](images/result.png)
+![alt text](result.png)
 ![alt text](images/result2.png)
-
-
-
-
-
+![alt text](images/ResponsiveDesign.png)
 
 
